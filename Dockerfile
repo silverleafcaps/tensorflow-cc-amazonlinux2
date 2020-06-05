@@ -30,3 +30,4 @@ RUN make
 RUN make install
 RUN rm -rf /root/tensorflow_cc/
 
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/:/usr/local/lib/tensorflow_cc/
